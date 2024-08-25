@@ -97,9 +97,6 @@ picture {
 picture img {
     width: 100%;
     height: auto;
-    max-width: none; 
-    border: none;
-    box-shadow: none; 
 }
 
 picture img:hover {

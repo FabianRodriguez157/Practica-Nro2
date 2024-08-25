@@ -1,0 +1,101 @@
+/* 1. Selector combinado: Clase .intro dentro de un section */
+section p.intro {
+    font-size: 18px;
+    color: #ff4500; /* Naranja fuerte */
+    margin: 10px 0;
+}
+
+/* 2. Selector combinado: ID #highlight dentro de un section */
+section p#highlight {
+    background-color: #ffd700; /* Amarillo dorado */
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* 3. Selector combinado: Clase .intro con la clase .highlight */
+p.intro.highlight {
+    color: #32cd32; /* Verde lima */
+    text-decoration: underline;
+    background-color: #f0f8ff; /* Azul claro */
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* 4. Selector combinado: Enlaces dentro de un li */
+nav ul li a {
+    color: #ff1493; /* Rosa fuerte */
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #ffe4e1; /* Rosa claro */
+    margin-right: 5px;
+    display: inline-block;
+}
+
+/* 5. Selector combinado: Clase .special dentro de un section */
+section p.intro.special {
+    color: #8a2be2; /* Azul violeta */
+    font-style: italic;
+    background-color: #e6e6fa; /* Lavanda */
+    padding: 10px;
+    border-left: 5px solid #8a2be2;
+    margin: 10px 0;
+}
+
+/* 6. Selector combinado: span dentro de un div */
+div span {
+    font-weight: bold;
+    color: #ff6347; /* Rojo tomate */
+    margin: 5px 0;
+}
+
+/* 7. Selector combinado: Clase .box dentro de un div */
+div.box p {
+    background-color: #f5f5dc; /* Beige */
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #deb887; /* Marrón */
+    margin: 10px 0;
+}
+
+
+/* 1. Estilo común para h1 y h2 */
+h1, h2 {
+    font-family: 'Arial Black', sans-serif;
+    color: #dc143c; /* Carmesí */
+    margin-bottom: 15px;
+    text-shadow: 2px 2px #ffa07a; /* Sombra color salmón claro */
+}
+
+/* 2. Estilo común para todos los párrafos */
+p, span {
+    font-size: 16px;
+    color: #4b0082; /* Índigo */
+    margin: 10px 0;
+}
+
+/* 3. Estilo común para enlaces y visitas */
+a, a:visited {
+    text-decoration: none;
+    color: #20b2aa; /* Verde azulado claro */
+    background-color: #f0fff0; /* Mielada */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* 4. Estilo común para elementos dentro del pie de página */
+footer p, footer a {
+    color: #4682b4; /* Azul acero */
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* 5. Estilo común para listas dentro de nav */
+nav ul, nav ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

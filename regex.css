@@ -1,0 +1,29 @@
+/* Selecciona elementos con una clase que empieza con "intro" */
+[class^="intro"] {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+/* Selecciona elementos con una clase que termina en "highlight" */
+[class$="highlight"] {
+    background-color: yellow;
+    font-style: italic;
+}
+
+/* Selecciona elementos con una clase que contiene "special" */
+[class*="special"] {
+    text-transform: uppercase;
+    color: crimson;
+}
+
+/* Selecciona enlaces cuyo href comienza con "mailto" */
+a[href^="mailto"] {
+    color: #FF4500;
+    font-weight: bold;
+}
+
+/* Selecciona elementos con un ID que contiene "light" */
+[id*="light"] {
+    background-color: #FFFFE0;
+    border-radius: 4px;
+}

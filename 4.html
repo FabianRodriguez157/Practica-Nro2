@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica de CSS</title>
+    <!-- Vinculando los archivos CSS -->
+    <link rel="stylesheet" href="herenciaycasacada.css">
+</head>
+<body>
+    <header>
+        <h1>Práctica de Selectores CSS</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <h2>Sección Uno</h2>
+        <p class="intro">Este es el párrafo de introducción para la primera sección.</p>
+        <p id="highlight">Este párrafo está resaltado usando un ID.</p>
+        <p class="intro highlight">Este párrafo tiene ambas clases aplicadas.</p>
+    </section>
+    
+    <section>
+        <h2>Sección Dos</h2>
+        <p>Aquí hay un párrafo sin clase o ID especial.</p>
+        <p class="intro special">Este párrafo tiene una clase para un resaltado especial.</p>
+        <div>
+            <p>Este párrafo está dentro de un div.</p>
+            <span>Elemento span anidado.</span>
+        </div>
+        <div class="box">
+            <p>Otro párrafo dentro de un div con una clase.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Práctica de CSS</p>
+        <p>Contacto: <a href="mailto:junior@ejemplo.com">junior@ejemplo.com</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,91 @@
+/* Reset de márgenes y relleno para evitar inconsistencias */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor para centrar los elementos horizontalmente */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias filas si es necesario */
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para elementos con medidas en em */
+.elemento-em {
+    width: 20em;
+    height: 10em;
+    font-size: 1.2em;
+    margin: 1em;
+    background-color: lightblue;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 255, 0.3);
+}
+
+/* Estilo para elementos con medidas en rem */
+.elemento-rem {
+    width: 20rem;
+    height: 10rem;
+    font-size: 1.2rem;
+    margin: 1rem;
+    background-color: lightcoral;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(255, 0, 0, 0.3);
+}
+
+/* Estilo para elementos con medidas en porcentaje */
+.elemento-perc {
+    width: 40%;
+    height: 20%;
+    font-size: 2%;
+    margin: 2%;
+    background-color: lightgreen;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 255, 0, 0.3);
+}
+
+/* Estilo para elementos con medidas en vw (viewport width) */
+.elemento-vw {
+    width: 30vw;
+    height: 15vw;
+    font-size: 2vw;
+    margin: 2vw;
+    background-color: lightgoldenrodyellow;
+    border: 2px solid goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(255, 215, 0, 0.3);
+}
+
+/* Estilo para elementos con medidas en vh (viewport height) */
+.elemento-vh {
+    width: 30vh;
+    height: 15vh;
+    font-size: 2vh;
+    margin: 2vh;
+    background-color: lightpink;
+    border: 2px solid hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(255, 105, 180, 0.3);
+}

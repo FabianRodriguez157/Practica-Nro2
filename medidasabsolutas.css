@@ -1,0 +1,60 @@
+/* Reset de márgenes y relleno para evitar inconsistencias */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor para centrar los elementos horizontalmente */
+.container {
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos con espacio igual entre ellos */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    height: 100vh; /* Ocupa toda la altura del viewport */
+    background-color: #f0f0f0; /* Color de fondo suave para el contenedor */
+}
+
+/* Estilo para elementos con medidas en píxeles (px) */
+.elemento-px {
+    width: 200px;
+    height: 100px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 0, 255, 0.3); /* Sombra para un efecto de profundidad */
+}
+
+/* Estilo para elementos con medidas en centímetros (cm) */
+.elemento-cm {
+    width: 10cm;
+    height: 5cm;
+    font-size: 1.5cm;
+    margin: 0.5cm;
+    background-color: lightcoral;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(255, 0, 0, 0.3); /* Sombra para un efecto de profundidad */
+}
+
+/* Estilo para elementos con medidas en pulgadas (in) */
+.elemento-in {
+    width: 4in;
+    height: 2in;
+    font-size: 0.5in;
+    margin: 0.25in;
+    background-color: lightgreen;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 2px 2px 5px rgba(0, 255, 0, 0.3); /* Sombra para un efecto de profundidad */
+}

@@ -1,0 +1,42 @@
+/* :before - Inserta contenido antes de cada párrafo */
+p:before {
+    content: "🔹 ";
+    color: darkblue;
+}
+
+/* :after - Inserta contenido después de cada párrafo */
+p:after {
+    content: " 🔸";
+    color: darkred;
+}
+
+/* ::first-line - Aplica un estilo a la primera línea de cada párrafo */
+p::first-line {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+/* ::first-letter - Aplica un estilo a la primera letra de cada párrafo */
+p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: darkorange;
+}
+
+/* ::selection - Aplica un estilo al texto seleccionado por el usuario */
+::selection {
+    background-color: yellow;
+    color: black;
+}
+
+/* ::marker - Aplica un estilo a los marcadores de listas */
+li::marker {
+    color: blue;
+    font-size: 1.2em;
+}
+
+/* ::placeholder - Aplica un estilo al texto de un campo de entrada cuando está vacío */
+input::placeholder {
+    color: gray;
+    font-style: italic;
+}

@@ -1,0 +1,21 @@
+/* Aplica un borde azul a todos los elementos con cualquier atributo 'href' */
+a[href] {
+    border: 1px solid blue;
+    padding: 5px;
+    display: inline-block;
+}
+
+/* Cambia el color a verde para los enlaces que inician con 'https' */
+a[href^="https"] {
+    color: green;
+}
+
+/* Cambia el color a rojo para los enlaces que contienen 'Udemy' */
+a[href*="udemy"] {
+    color: red;
+}
+
+/* Cambia el color a naranja para los enlaces que terminan en '.org' */
+a[href$=".org"] {
+    color: orange;
+}

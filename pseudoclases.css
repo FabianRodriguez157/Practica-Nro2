@@ -1,0 +1,55 @@
+/* :hover - Aplica un estilo cuando el cursor está sobre el enlace */
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* :active - Aplica un estilo cuando el enlace está siendo activado (ej. durante un clic) */
+a:active {
+    color: blue;
+}
+
+/* :focus - Aplica un estilo cuando un elemento de entrada (input) tiene el foco */
+input:focus {
+    border: 2px solid green;
+}
+
+/* :visited - Aplica un estilo a los enlaces que ya han sido visitados */
+a:visited {
+    color: purple;
+}
+
+/* :first-child - Aplica un estilo al primer hijo de un elemento padre (en este caso, el primer párrafo) */
+p:first-child {
+    font-weight: bold;
+}
+
+/* :last-child - Aplica un estilo al último hijo de un elemento padre (en este caso, el último párrafo) */
+p:last-child {
+    font-style: italic;
+}
+
+/* :nth-child(odd) - Aplica un estilo a los elementos hijos impares de una lista */
+li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+/* :nth-child(even) - Aplica un estilo a los elementos hijos pares de una lista */
+li:nth-child(even) {
+    background-color: lightblue;
+}
+
+/* :not - Aplica un estilo a los párrafos que no tienen la clase 'special' */
+p:not(.special) {
+    color: gray;
+}
+
+/* :before - Inserta contenido antes de un título */
+h1:before {
+    content: "🔥 ";
+}
+
+/* :after - Inserta contenido después de un título */
+h1:after {
+    content: " 🚀";
+}

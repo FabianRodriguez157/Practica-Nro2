@@ -1,0 +1,15 @@
+/* medidasrelativas.css */
+
+/* Color de texto con opacidad */
+.red-opacity {
+    color: rgba(255, 0, 0, 0.7); /* Rojo con opacidad del 70% */
+  }
+  
+  .green-opacity {
+    color: rgba(0, 255, 0, 0.5); /* Verde con opacidad del 50% */
+  }
+  
+  .blue-opacity {
+    color: rgba(0, 0, 255, 0.4); /* Azul con opacidad del 40% */
+  }
+  

@@ -1,0 +1,16 @@
+/* colorespornombre.css */
+
+/* Caso 1: Texto rojo */
+.red-text {
+    color: red;
+}
+
+/* Caso 2: Texto verde */
+.green-text {
+    color: green;
+}
+
+/* Caso 3: Texto azul */
+.blue-text {
+    color: blue;
+}

@@ -1,0 +1,27 @@
+/* coloreshls.css */
+
+/* Color de fondo usando HSL */
+.fondo-rojo {
+    background-color: hsl(0, 100%, 50%); /* Rojo */
+  }
+  
+  /* Color de texto usando HSL */
+  .texto-verde {
+    color: hsl(120, 100%, 50%); /* Verde */
+  }
+  
+  /* Color de borde usando HSL */
+  .borde-azul {
+    border: 2px solid hsl(240, 100%, 50%); /* Azul */
+  }
+  
+  /* Color de fondo con mezcla de HSL */
+  .fondo-naranja {
+    background-color: hsl(30, 100%, 50%); /* Naranja */
+  }
+  
+  /* Color de texto con mezcla de HSL */
+  .texto-cyan {
+    color: hsl(180, 100%, 50%); /* Cyan */
+  }
+  

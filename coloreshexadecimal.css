@@ -1,0 +1,15 @@
+/* coloreshexadecimal.css */
+
+/* Color de texto usando código hexadecimal */
+.red-text {
+    color: #FF0000; /* Rojo */
+  }
+  
+  .green-text {
+    color: #00FF00; /* Verde */
+  }
+  
+  .blue-text {
+    color: #0000FF; /* Azul */
+  }
+  

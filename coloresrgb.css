@@ -1,0 +1,27 @@
+/* coloresrgb.css */
+
+/* Color de fondo con valor RGB entero */
+.fondo-rojo {
+    background-color: rgb(255, 0, 0); /* Rojo puro */
+  }
+  
+  /* Color de texto con valor RGB entero */
+  .texto-verde {
+    color: rgb(0, 255, 0); /* Verde puro */
+  }
+  
+  /* Color de borde con valor RGB usando porcentaje */
+  .borde-azul {
+    border: 2px solid rgb(0%, 0%, 255%); /* Azul puro */
+  }
+  
+  /* Color de fondo con mezcla de colores RGB */
+  .fondo-naranja {
+    background-color: rgb(255, 165, 0); /* Naranja */
+  }
+  
+  /* Color de texto con mezcla de colores RGB usando porcentaje */
+  .texto-cyan {
+    color: rgb(0%, 255%, 255%); /* Cyan */
+  }
+  

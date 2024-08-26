@@ -1,0 +1,76 @@
+/* Estilo para el cuerpo de la página */
+#body-main {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+#main-header {
+    background-color: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Estilo para el encabezado principal */
+#main-title {
+    font-size: 2.5em;
+}
+
+/* Estilo para la primera sección */
+#section-one {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fffacd;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para el título de la primera sección */
+#section-one-title {
+    color: #4b0082;
+}
+
+/* Estilo para el párrafo de la primera sección */
+#section-one-paragraph {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #483d8b;
+}
+
+/* Estilo para la segunda sección */
+#section-two {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffe4e1;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para el título de la segunda sección */
+#section-two-title {
+    color: #dc143c;
+}
+
+/* Estilo para el párrafo de la segunda sección */
+#section-two-paragraph {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #8b0000;
+}
+
+/* Estilo para el pie de página */
+#main-footer {
+    background-color: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para el texto del pie de página */
+#footer-text {
+    font-size: 0.9em;
+}
